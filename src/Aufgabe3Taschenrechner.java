@@ -1,4 +1,4 @@
-public class Aufgabe3Taschenrechner {
+public class Aufgabe3Taschenrechner {                   //zu Aufgabe 3:
 
     public static double addieren(double a, double b){
         return a+b;

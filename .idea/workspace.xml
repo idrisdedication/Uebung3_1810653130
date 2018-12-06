@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed70490-42b2-4343-8d16-c199aa767c38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Uebung3_1810653109.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Uebung3_1810653109/Aufgabe2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Uebung3_1810653109/Aufgabe3Taschenrechner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aufgabe2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aufgabe3Taschenrechner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aufgabe4Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,29 +22,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="152" />
+          <entry key="java" value="272" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="152" />
+          <entry key="JAVA" value="272" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aufgabe2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -66,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aufgabe3Taschenrechner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state>
+              <caret column="71" selection-start-column="71" selection-end-column="71" />
               <folding>
                 <element signature="e#93#94#0" expanded="true" />
                 <element signature="e#119#120#0" expanded="true" />
@@ -78,6 +68,15 @@
                 <element signature="e#353#354#0" expanded="true" />
                 <element signature="e#379#380#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Aufgabe4Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -97,8 +96,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Aufgabe3Taschenrechner.java" />
         <option value="$PROJECT_DIR$/src/Aufgabe2.java" />
+        <option value="$PROJECT_DIR$/src/Aufgabe3Taschenrechner.java" />
+        <option value="$PROJECT_DIR$/src/Aufgabe4Fibonacci.java" />
       </list>
     </option>
   </component>
@@ -143,7 +143,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544072870809" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544073400682" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -196,15 +196,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544071712817</updated>
-      <workItem from="1544071714776" duration="998000" />
+      <workItem from="1544071714776" duration="1621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="998000" />
+    <option name="totallyTimeSpent" value="1621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -250,10 +251,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aufgabe3Taschenrechner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
           <folding>
             <element signature="e#93#94#0" expanded="true" />
             <element signature="e#119#120#0" expanded="true" />
@@ -267,10 +275,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe2.java">
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe4Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="153">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
         </state>
       </provider>
     </entry>
